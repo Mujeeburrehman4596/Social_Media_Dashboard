@@ -23,8 +23,6 @@ A powerful and intuitive dashboard to manage all your social media accounts in o
 
 - **Frontend**: HTML5, CSS3, JavaScript
 
-- **API Integration**: Twitter API, Facebook Graph API, Instagram API
-
 
 
 
