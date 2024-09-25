@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container-fluid p-5">
+        <!-- Dashboard Header -->
+        <header class="mb-4">
+            <h1 class="text-center">Social Media Dashboard</h1>
+        </header>
+
+        <!-- User Stats Section -->
+        <section class="mb-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Followers</h5>
+                            <p class="card-text">12,345</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Posts</h5>
+                            <p class="card-text">567</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Likes</h5>
+                            <p class="card-text">23,456</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Comments</h5>
+                            <p class="card-text">1,234</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Posts Section -->
+        <section class="mb-4">
+            <h2 class="mb-3">Recent Posts</h2>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">Post 1:</h5>
+                    <p class="mb-1"> <h3>Motivational Quote</h3>
+                        "Success isn’t about how much money you make; it’s about the difference you make in people’s lives." - Michelle Obama
+                        
+                        🌟 Make today count!
+                        💡 Small steps lead to big changes. Let's create an impact together, no matter how small.
+                        <br> #MotivationMonday #Inspiration #PositiveVibes
+                        
+                        </p>
+                    <small>Posted 3 hours ago</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">Post 2:</h5>
+                    <p class="mb-1"><h3>Product Launch Announcement</h3>
+                       <h4>🚀 Introducing Our Latest Feature! 🚀</h4> 
+                        
+                        We’re excited to announce the launch of our new messaging tool!
+                        📱 Easier communication.
+                        ⚡ Faster responses.
+                        💬 More connections.
+                        
+                        Try it out now and let us know what you think! Your feedback helps us grow 💬👇<br>
+                        #NewFeature #TechInnovation #UpdateAlert</p>
+                    <small>Posted 5 hours ago</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">Post 3:</h5>
+                    <p class="mb-1"><h3>Community Engagement</h3><h4>👋 Hello, Community!</h4>
+
+                        What’s the best piece of advice you’ve ever received? 🤔
+                        Share your wisdom with us in the comments, and let’s inspire each other!
+                        We’re all about supporting each other to grow and succeed 💬👇
+                        <br>
+                        #QuestionOfTheDay #CommunityFirst #SupportAndGrow</p>
+                    <small>Posted 8 hours ago</small>
+                </a>
+            </div>
+        </section>
+
+        <!-- Analytics Section -->
+        <section class="mb-4">
+            <h2 class="mb-3">Analytics</h2>
+            <canvas id="myChart"></canvas>
+        </section>
+
+        <!-- Notifications Section -->
+        <section class="mb-4">
+            <h2 class="mb-3">Notifications</h2>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    New comment on your post
+                    <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    New follower
+                    <span class="badge bg-primary rounded-pill">1</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    New like on your post
+                    <span class="badge bg-primary rounded-pill">4</span>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
