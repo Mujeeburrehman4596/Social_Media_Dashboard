@@ -22,7 +22,7 @@ A powerful and intuitive dashboard to manage all your social media accounts in o
 ## Technologies Used
 
 - **Frontend**: HTML5, CSS3, JavaScript
--
+
 - **API Integration**: Twitter API, Facebook Graph API, Instagram API
 
 
